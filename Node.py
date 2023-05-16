@@ -19,12 +19,12 @@ def insert(root, value):
             else:
                 insert(root.right, value)
 
-def searchingall(root, value):
+def searchingAllBinary(root, value):
     if root is None or root.value == value:
         return root
     if root.value < value:
-        return searchingall(root.right, value)
-    return searchingall(root.left, value)
+        return searchingAllBinary(root.right, value)
+    return searchingAllBinary(root.left, value)
 
 def inorder_traversal(root):
     if root:

@@ -1,7 +1,4 @@
-
-
 # Atividade Da Aula referente ao dia 08
-
 
 Reenvio da atividade
 com resolucao do conflto
